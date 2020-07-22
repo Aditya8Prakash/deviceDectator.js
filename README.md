@@ -1,3 +1,4 @@
+---
 # deviceDectator.js
 ---
 ## A new and lighter way to Detect The Type of Device ( ie. Mobile Devices or Desktop Devices )
@@ -7,3 +8,4 @@
 - deviceDectator.min.js ( lighter, compressed, faster )
 ---
 #### Note : Works More Smoother With p5.js or p5.min.js
+---
