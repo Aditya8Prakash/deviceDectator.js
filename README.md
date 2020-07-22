@@ -5,3 +5,5 @@
 ### There are Two Volume of it -
 - deviceDectator.js ( orignal, uncompressed )
 - deviceDectator.min.js ( lighter, compressed, faster )
+---
+#### Note : Works More Smoother With p5.js or p5.min.js
