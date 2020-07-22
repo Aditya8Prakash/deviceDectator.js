@@ -1,10 +1,16 @@
-/*	deviceDectator.js	
+
+/*	
+	deviceDectator.js	
 	@v 0.0.1
+	
 	Author - "Aditya Prakash"
 
 // Example: //
 
+=====================================
+
 let x;
+
 function setup () {
 	x = deviceDectator();
 
@@ -14,14 +20,18 @@ function setup () {
 		console.log("PC");
 	}
 }
+
+======================================
+
 */
 
-const deviceDectator = () => {
+function deviceDectator () {
 
 	let device;
+	
 	let isMobile = /iPhone|iPad|iPod|Android|BlackBerry|Windows Phone|webOS/i.test(navigator.userAgent);
 
-	if (isMobile) {
+	if ( isMobile ) {
 		device = "MOBILE";
 	} else {
 		device = "PC";
