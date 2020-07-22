@@ -1,0 +1,1 @@
+# deviceDectator.js
